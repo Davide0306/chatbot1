@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category> 
+    <pattern>Ciao</pattern> 
+    <template>Ciao, come ti chiami?</template> 
+    </category>
+    <category> 
+     <pattern>Il mio nome è *</pattern> 
+    <template>Piacere di conoscerti <star/>, sono un bot che ti dirà le formule geometriche e i teoremi più importanti!!! </template> 
+    </category>
+   <category>
+    <pattern>^  quadrato  ^</pattern>
+    <template>Perimetro = l*4 <br> </br>Area = l*l</template>
+  </category>
+   <category>
+    <pattern>^  triangolo  ^</pattern>
+    <template>Perimetro = l*3 <br> </br>Area = (b*h)/2</template>
+  </category>
+   <category>
+    <pattern>^  rettangolo  ^</pattern>
+    <template>Perimetro = (b*2)+(h*2) <br> </br>Area = b*h</template>
+  </category>
+   <category>
+    <pattern>^  cerchio  ^</pattern>
+    <template>Circonferenza = 2π*r <br> </br>Area = πr^2</template>
+  </category>
+   <category>
+    <pattern>^  trapezio  ^</pattern>
+    <template>Perimetro = b1+b2+l1+l2 <br> </br>Area = [(b1+b2)*h]/2</template>
+  </category>
+   <category>
+    <pattern>^  rombo  ^</pattern>
+    <template>Perimetro = l*4 <br> </br>Area = (d1×d2)/2</template>
+  </category>
+   <category>
+    <pattern>^  parallelogramma  ^</pattern>
+    <template>Perimetro = (b*2)+(l*2) <br> </br>Area = b*h</template>
+  </category> 
+   <category>
+    <pattern>^  pitagora  ^</pattern>
+    <template>i^2 = c1^2+c2^2 (ipotenusa)<br> </br> c1^2 = i^2-c2^2 (cateto)<br> </br> c2^2 = i^2-c1^2 (cateto)</template>
+  </category>
+   <category>
+     <pattern>^  grazie  ^</pattern>
+    <template>Grazie a te e spero di esserti stato utile</template>
+  </category>
+</aiml>
